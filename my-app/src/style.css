@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.box_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border-radius: 20px;
+  border: 1px solid #dbdbdb;
+}
+
+.img_box {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
